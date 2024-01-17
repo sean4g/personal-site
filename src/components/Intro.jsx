@@ -1,13 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+import garden from '../mom.jpg'  
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 function Intro() {
+    let [path, setPath] = useState(window.location.pathname);
     return (
-        <div className="flex text-center items-center flex-col pt-12 pb-12 font-Lora">
-            <h1 className="text-4xl mb-1 md:mb-3 font-semibold">I'm Sean Wang</h1>
-            <p className='text-base md:text-xl mb-3 font-medium'>Computer Engineer & Software Developer</p>
-            <p className='text-sm w-3/6 mb-6 whitespace-normal'>full stack developer, master's student at Purdue University, enjoyer of all things art, looking for a full time job in software or computer 
-            engineering.</p>
+        <div className='grid grid-cols-2 items-center bg-slate'>
+            <div>
+                <img src={garden} alt="plant" className='w-full h-full'/>
+            </div>
+            <div className="flex text-left items-left flex-col pl-12 pt-12 pb-12 font-Lora w-9/12">
+                <div className="text-7xl mb-1 md:mb-3 font-bold" >
+                    <h1 className='inline-block '>I'm&nbsp;</h1>
+                    <h1 className='inline-block text-dark-blue'> Sean Wang</h1>
+                </div>
+                <div className='text-lg md:text-xl mb-3 font-semibold '>
+                    <p className='inline-block'>Computer Engineer </p>
+                    <p className='inline-block'>&nbsp;&&nbsp;</p>
+                    <p className='inline-block  '>Software Developer</p>
+                </div>
+                
+                <p className='text-base mb-6 whitespace-normal'>full stack developer, master's student at Purdue University with an emphasis in artificial intelligence, enjoyer of all things art, looking for a full time job in software or computer 
+                engineering.</p>
+                <div className='text-base mb-6 whitespace-normal'>
+                    <p className='inline-block'>learn more&nbsp;</p>
+                    <Link className='text-emerald-500 font-semibold' to="/about-me" onClick={() => setPath("/about-me")}>
+                        about me
+                    </Link>
+                    <p className='inline-block'>&nbsp;or&nbsp;</p>
+                    <Link className='text-emerald-500 font-semibold' to="/contact-me" onClick={() => setPath("/contact-me")}>
+                        contact me
+                    </Link>
+                </div>
+                <div className='flex-none mt-3'>
+                    <a href='https://www.linkedin.com/in/sean-wang4/' target='_blank'>
+                        <FontAwesomeIcon icon={faLinkedin} className='py-1 pr-2'/>
+                    </a>
+                    <a href='https://github.com/sean4g' target='_blank'>
+                        <FontAwesomeIcon icon={faGithub} className='py-1 px-2'/>
+                    </a>
+                    <a href='https://www.instagram.com/seanzwang/' target='_blank'>
+                        <FontAwesomeIcon icon={faInstagram} className='py-1 px-2'/>
+                    </a>
+                </div>
+                
+            </div>
+            
         </div>
+
+        
     );
 }
 
