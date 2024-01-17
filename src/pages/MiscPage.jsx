@@ -6,7 +6,7 @@ function MiscPage(){
 
     return (
         <div>
-            <Intro />
+            <h1>Under Construction! :P</h1>
         </div>
     );
 };

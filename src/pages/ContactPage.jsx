@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Intro from '../components/Intro'
+import Contact from '../components/Contact.jsx'
 
 function ContactPage(){
     document.title = "seanport";
 
     return (
-        <div>
-            <Intro />
+        <div className="min-h-screen flex bg-slate fill py-14">
+            <Contact />
         </div>
     );
 };

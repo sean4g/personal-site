@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import garden from '../mom.jpg'  
+import garden from '../assets/mom.jpg'  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
