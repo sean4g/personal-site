@@ -22,7 +22,7 @@ function Intro() {
                     <p className='inline-block  '>Software Developer</p>
                 </div>
                 
-                <p className='text-base mb-6 whitespace-normal'>full stack developer, master's student at Purdue University with an emphasis in artificial intelligence, enjoyer of all things art, looking for a full time job in software or computer 
+                <p className='text-base mb-6 whitespace-normal'>full stack developer, master's student at Purdue University with an emphasis in artificial intelligence, looking for a full time job in software or computer 
                 engineering.</p>
                 <div className='text-base mb-6 whitespace-normal'>
                     <p className='inline-block'>learn more&nbsp;</p>

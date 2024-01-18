@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route path="/about-me" element={<AboutPage/>} />
-        <Route path="/contact-me" element={<ContactPage/>} />
-        <Route path="/sean-moment" element={<MiscPage />} />
+        <Route path="/seanport/" element={<HomePage/>} />
+        <Route path="/seanport/about-me" element={<AboutPage/>} />
+        <Route path="/seanport/contact-me" element={<ContactPage/>} />
+        <Route path="/seanport/sean-moment" element={<MiscPage />} />
       </Routes>
     </BrowserRouter>
   );
