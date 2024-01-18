@@ -8,15 +8,15 @@ import MiscPage from './pages/MiscPage.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
-        <Route path="/seanport/" element={<HomePage/>} />
-        <Route path="/seanport/about-me" element={<AboutPage/>} />
-        <Route path="/seanport/contact-me" element={<ContactPage/>} />
-        <Route path="/seanport/sean-moment" element={<MiscPage />} />
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/about-me" element={<AboutPage/>} />
+        <Route path="/contact-me" element={<ContactPage/>} />
+        <Route path="/sean-moment" element={<MiscPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

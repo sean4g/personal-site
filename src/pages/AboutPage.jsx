@@ -5,7 +5,6 @@ import me1 from '../assets/me1.jpg'
 
 function AboutPage(){
     document.title = "seanport";
-    let [path, setPath] = useState(window.location.pathname);
     return (
         <div className="flex flex-cols bg-slate font-Lora min-h-screen">
             <div className="px-12 pb-12 pt-8">
@@ -19,7 +18,7 @@ function AboutPage(){
                     excited to be able to contribute to any industry and put my skills to the test!
                 </p>
                 <p className="inline-block mb-3 ">Other than coding, I enjoy reading and entertaining myself with any medium of art. Sometimes I&nbsp;</p>
-                <Link className='text-emerald-500 font-semibold' to="/seanport/sean-moment" onClick={() => setPath("/seanport/sean-moment")}>
+                <Link className='text-emerald-500 font-semibold' to="/sean-moment">
                     write
                 </Link> 
                 <p className="inline-block mb-5">&nbsp;stuff too!</p>

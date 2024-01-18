@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 function Intro() {
-    let [path, setPath] = useState(window.location.pathname);
     return (
         <div className='grid grid-cols-2 items-center bg-slate'>
             <div>
@@ -26,11 +25,11 @@ function Intro() {
                 engineering.</p>
                 <div className='text-base mb-6 whitespace-normal'>
                     <p className='inline-block'>learn more&nbsp;</p>
-                    <Link className='text-emerald-500 font-semibold' to="/seanport/about-me" onClick={() => setPath("/seanport/about-me")}>
+                    <Link className='text-emerald-500 font-semibold' to="/about-me">
                         about me
                     </Link>
                     <p className='inline-block'>&nbsp;or&nbsp;</p>
-                    <Link className='text-emerald-500 font-semibold' to="/seanport/contact-me" onClick={() => setPath("/seanport/contact-me")}>
+                    <Link className='text-emerald-500 font-semibold' to="/contact-me">
                         contact me
                     </Link>
                 </div>
