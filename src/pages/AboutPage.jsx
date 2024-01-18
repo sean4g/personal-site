@@ -35,7 +35,7 @@ function AboutPage(){
                 <p className="mb-3 mr-8 font-medium w-1/3">
                     Python / C++ / C / JavaScript / Java / HTML and CSS / MatLab / Verilog / React / SQLite / TensorFlow / PyTorch
                 </p>
-                <a href={resume} target="_blank">
+                <a href={resume} target="_blank" rel="noreferrer">
                     <button 
                         className="text-center inline-block px-5 py-3 mt-3 w-max text-base 
                             font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600">

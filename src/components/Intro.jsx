@@ -35,13 +35,13 @@ function Intro() {
                     </Link>
                 </div>
                 <div className='flex-none mt-3'>
-                    <a href='https://www.linkedin.com/in/sean-wang4/' target='_blank'>
+                    <a href='https://www.linkedin.com/in/sean-wang4/' target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className='py-1 pr-2'/>
                     </a>
-                    <a href='https://github.com/sean4g' target='_blank'>
+                    <a href='https://github.com/sean4g' target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} className='py-1 px-2'/>
                     </a>
-                    <a href='https://www.instagram.com/seanzwang/' target='_blank'>
+                    <a href='https://www.instagram.com/seanzwang/' target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faInstagram} className='py-1 px-2'/>
                     </a>
                 </div>
