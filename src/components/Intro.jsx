@@ -26,11 +26,11 @@ function Intro() {
                 engineering.</p>
                 <div className='text-base mb-6 whitespace-normal'>
                     <p className='inline-block'>learn more&nbsp;</p>
-                    <Link className='text-emerald-500 font-semibold' to="/about-me" onClick={() => setPath("/about-me")}>
+                    <Link className='text-emerald-500 font-semibold' to="/seanport/about-me" onClick={() => setPath("/seanport/about-me")}>
                         about me
                     </Link>
                     <p className='inline-block'>&nbsp;or&nbsp;</p>
-                    <Link className='text-emerald-500 font-semibold' to="/contact-me" onClick={() => setPath("/contact-me")}>
+                    <Link className='text-emerald-500 font-semibold' to="/seanport/contact-me" onClick={() => setPath("/seanport/contact-me")}>
                         contact me
                     </Link>
                 </div>
