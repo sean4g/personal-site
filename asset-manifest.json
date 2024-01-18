@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/seanport/static/css/main.a412a751.css",
-    "main.js": "/seanport/static/js/main.bba27ba2.js",
+    "main.js": "/seanport/static/js/main.d73fee78.js",
     "static/js/787.d4aba7ab.chunk.js": "/seanport/static/js/787.d4aba7ab.chunk.js",
     "static/media/mom.jpg": "/seanport/static/media/mom.0c2ef68423a092256253.jpg",
     "static/media/me1.jpg": "/seanport/static/media/me1.2e1bcb4cddb697f3e180.jpg",
     "static/media/sean_wang_resume1.pdf": "/seanport/static/media/sean_wang_resume1.2450f64473807ff7a5cf.pdf",
     "index.html": "/seanport/index.html",
     "main.a412a751.css.map": "/seanport/static/css/main.a412a751.css.map",
-    "main.bba27ba2.js.map": "/seanport/static/js/main.bba27ba2.js.map",
+    "main.d73fee78.js.map": "/seanport/static/js/main.d73fee78.js.map",
     "787.d4aba7ab.chunk.js.map": "/seanport/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a412a751.css",
-    "static/js/main.bba27ba2.js"
+    "static/js/main.d73fee78.js"
   ]
 }
