@@ -1,7 +1,7 @@
 import './styles/tailwind.css';
 import Header from "./components/Header.jsx";
 import HomePage from "./pages/HomePage.jsx"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import AboutPage from './pages/AboutPage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
 import MiscPage from './pages/MiscPage.jsx';
