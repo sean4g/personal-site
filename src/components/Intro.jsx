@@ -6,7 +6,7 @@ import { faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-i
 
 function Intro() {
     return (
-        <div className='grid grid-cols-2 items-center bg-slate'>
+        <div className='grid grid-cols-2 items-center bg-blue-100'>
             <div>
                 <img src={garden} alt="plant" className='w-full h-full'/>
             </div>
